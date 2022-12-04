@@ -32,6 +32,7 @@ func main() {
 		elf1.areaStart, _ = strconv.Atoi(elf1.areas[0])
 		elf1.areaEnd, _ = strconv.Atoi(elf1.areas[1])
 		elf2.areaStart, _ = strconv.Atoi(elf2.areas[0])
+		elf2.areaEnd, _ = strconv.Atoi(elf2.areas[1])
 
 		if elf1.areaStart <= elf2.areaStart && elf1.areaEnd >= elf2.areaEnd {
 			result++
